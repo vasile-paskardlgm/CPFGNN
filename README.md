@@ -1,4 +1,4 @@
-# Demo code implementation for the CPF ($\underline{\text{C}}$oarsening-based $\underline{\text{P}}$artition-wise $\underline{\text{F}}$iltering)
+# Demo code implementation for the CPF (<u>C</u>oarsening-based <u>P</u>artition-wise <u>F</u>iltering)
 
 ## Environment
 Ubunto-22.04
