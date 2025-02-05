@@ -36,8 +36,8 @@ You can execute the commands below to reproduce partial of the experiments.
 `python train.py --dataset amazon-ratings --finetuned --gpu`
 
 ## Notes
-- In our code implementation, CPF is structured as `CPFGNN`, since our method is in fact a GNN model.
+- The CPF method in our implementation is structured within the `CPFGNN` model class, as it is fundamentally a GNN-based approach.
 
-- Please note that this code is only a demo for confirming reproducibilty as conference submission. Full code will be open-sourced if the paper gets accepted.
+- This code is intended solely for demonstration purposes to confirm reproducibility for the conference submission. Full access to the code will be made available upon acceptance of the paper.
 
-- Due to diversity of computational environments, the results may observe (very slight) fluctuations compared to those reported in the paper. Multiple executions will be helpful to alleviate the uncertainties in performance. 
+- Due to differences in computational setups, the results may experience minor fluctuations when compared to the ones presented in the paper. Running the code multiple times can help mitigate these discrepancies.

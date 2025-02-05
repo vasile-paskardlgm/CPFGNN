@@ -1,5 +1,5 @@
-This is the folder for storing the datasets download with `torch-geometric` and `dgl` framework. It is empty now but will automatically generate data subfolder when running the example code in `README.md`.
+This folder is where datasets downloaded through the `torch-geometric` and `dgl` libraries will be stored. It is currently empty, but once you run the example code from the `README.md` file, it will automatically create a 'data' subfolder to hold the datasets.
 
-## Environment
+## Environmental details
 torch-geometric == 2.6.0
 dgl == 1.1.0
