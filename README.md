@@ -20,6 +20,12 @@ fast-pytorch-kmeans == 0.2.2
 ## Executions
 You can execute the commands below to reproduce partial of the experiments.
 
+**Roman-empire:**
+`python train.py --dataset roman-empire --finetuned --gpu`
+
+**Amazon-ratings**
+`python train.py --dataset amazon-ratings --finetuned --gpu`
+
 **Cora:**
 `python train.py --dataset cora --finetuned --gpu`
 
@@ -28,12 +34,6 @@ You can execute the commands below to reproduce partial of the experiments.
 
 **Pubmed:**
 `python train.py --dataset pubmed --finetuned --gpu`
-
-**Roman-empire:**
-`python train.py --dataset roman-empire --finetuned --gpu`
-
-**Amazon-ratings**
-`python train.py --dataset amazon-ratings --finetuned --gpu`
 
 ## Notes
 - This code is intended solely for demonstration purposes to confirm reproducibility for the conference submission. Full access to the code will be made available upon acceptance of the paper.
